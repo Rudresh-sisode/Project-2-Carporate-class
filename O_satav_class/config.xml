@@ -1,0 +1,41 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\User\Desktop\dist\Satav_Classes.jar</jar>
+  <outfile>C:\Users\User\Desktop\dist\Satav Coaching Classes.exe</outfile>
+  <errTitle>Please Download JRE</errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\Users\User\Desktop\dist\sc_logo.ico</icon>
+  <jre>
+    <path>bin/jre</path>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.1</fileVersion>
+    <txtFileVersion>1.20.CO2</txtFileVersion>
+    <fileDescription>Satav Coaching Classes By Cube Orientation</fileDescription>
+    <copyright>2018</copyright>
+    <productVersion>1.0.0.1</productVersion>
+    <txtProductVersion>1.20.CO2</txtProductVersion>
+    <productName>Satav Coaching Classes</productName>
+    <companyName>Cube Orientation</companyName>
+    <internalName>Cube</internalName>
+    <originalFilename>Satav Coaching Classes.exe</originalFilename>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
